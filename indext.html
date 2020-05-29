@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="responsive.css">
+    <title>Responsive Images</title>
+</head>
+<body>
+    <header class="header">
+        <div class="hero-pic-container">
+            <picture>
+                <source media="(min-width:550px)" srcset="images/hero-big.jpg">
+                <source media="(min-width: 320px)" srcset="images/hero-small.jpg">
+                <img src="./images/hero.jpg" alt="hero picture">      
+            </picture>
+        </div>
+        <div class="profile-cat">
+                <img src="./images/profile.png" alt="profile cat picture">
+                <h3> I Hate Cats</h3>
+        </div>
+    </header>
+    
+        <section class="section-images">
+            <img src="./images/cat-1.jpg">
+            <img src="./images/cat-2.jpg">
+            <img src="./images/cat-3.jpg">
+        </section>
+
+      
+
+    
+    
+</body>
+</html>
